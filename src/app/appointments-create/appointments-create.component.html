@@ -1,0 +1,44 @@
+<div class="p-4">
+    <div class="container">
+
+
+        <div class="card">
+            <h4 class="card-header">Appointment Creation</h4>
+            <div class="card-body">
+                <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+                    <div class="form-group">
+                        <label>Available Clinic</label>
+                        <div>
+                            <select [(ngModel)]='nrSelect2' formControlName="clinic" >
+                                <option value="GP Clinic 1">GP Clinic 1</option>
+                                <option value="GP Clinic 2" selected>GP Clinic 2</option>
+                                <option value="GP Clinic 3" selected>GP Clinic 3</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name </label>
+                        <input type="text" formControlName="name" class="form-control" aria-label="Readonly field" />
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Available Date</label>
+                        <div>
+                            <select [(ngModel)]='nrSelect' formControlName="date" >
+                                <option *ngFor="let slot of slots" value="{{slot.avail}}">
+                                    {{slot.avail}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">
+                            Create Appointment
+                        </button>
+                        <a routerLink="../appointment" class="btn btn-link">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

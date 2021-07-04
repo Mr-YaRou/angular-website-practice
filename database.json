@@ -1,0 +1,47 @@
+{
+  "appointments2": [],
+  "clinic-open": [
+    {
+      "id": 1,
+      "clinic": "GP Clinic 1",
+      "avail": "5/7/2021, Monday",
+      "remaining": 3
+    },
+    {
+      "id": 2,
+      "clinic": "GP Clinic 1",
+      "avail": "6/7/2021, Tuesday",
+      "remaining": 3
+    },
+    {
+      "id": 3,
+      "clinic": "GP Clinic 1",
+      "avail": "7/7/2021, Wednesday",
+      "remaining": 3
+    },
+    {
+      "id": 4,
+      "clinic": "GP Clinic 1",
+      "avail": "8/7/2021, Thursday",
+      "remaining": 3
+    },
+    {
+      "id": 5,
+      "clinic": "GP Clinic 1",
+      "avail": "9/7/2021, Friday",
+      "remaining": 3
+    },
+    {
+      "id": 6,
+      "clinic": "GP Clinic 1",
+      "avail": "10/7/2021, Saturday",
+      "remaining": 3
+    },
+    {
+      "id": 7,
+      "clinic": "GP Clinic 1",
+      "avail": "11/7/2021, Sunday",
+      "remaining": 3
+    }
+  ]
+}

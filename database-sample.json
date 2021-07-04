@@ -1,0 +1,258 @@
+{
+  "appointments2": [
+    {
+        "id": "1",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentZero",
+        "date": "10/7/2021, Saturday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "2",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentSeven",
+        "date": "11/7/2021, Sunday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "3",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentThree",
+        "date": "8/7/2021, Thursday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "4",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentFour",
+        "date": "6/7/2021, Tuesday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "5",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentOne",
+        "date": "7/7/2021, Wednesday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "6",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentOne",
+        "date": "6/7/2021, Tuesday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "7",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentThree",
+        "date": "5/7/2021, Monday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "8",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentFour",
+        "date": "9/7/2021, Friday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "9",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentFive",
+        "date": "6/7/2021, Tuesday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "10",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentTwo",
+        "date": "11/7/2021, Sunday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "11",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentFour",
+        "date": "10/7/2021, Saturday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "12",
+        "clinic": "GP Clinic 2",
+        "name": "PaitentOne",
+        "date": "10/7/2021, Saturday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "13",
+        "clinic": "GP Clinic 2",
+        "name": "PaitentThree",
+        "date": "7/7/2021, Wednesday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "14",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentTwo",
+        "date": "8/7/2021, Thursday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "15",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentOne",
+        "date": "10/7/2021, Saturday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "16",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentTwo",
+        "date": "8/7/2021, Thursday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "17",
+        "clinic": "GP Clinic 2",
+        "name": "PaitentSix",
+        "date": "8/7/2021, Thursday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "18",
+        "clinic": "GP Clinic 2",
+        "name": "PaitentZero",
+        "date": "8/7/2021, Thursday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "19",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentSix",
+        "date": "9/7/2021, Friday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "20",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentOne",
+        "date": "8/7/2021, Thursday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "21",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentOne",
+        "date": "9/7/2021, Friday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "22",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentTwo",
+        "date": "6/7/2021, Tuesday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "23",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentZero",
+        "date": "10/7/2021, Saturday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "24",
+        "clinic": "GP Clinic 2",
+        "name": "PaitentSeven",
+        "date": "9/7/2021, Friday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "25",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentFive",
+        "date": "8/7/2021, Thursday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "26",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentFour",
+        "date": "5/7/2021, Monday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "27",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentSeven",
+        "date": "8/7/2021, Thursday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "28",
+        "clinic": "GP Clinic 1",
+        "name": "PaitentZero",
+        "date": "10/7/2021, Saturday",
+        "status": "Pending Confirmation"
+    },
+    {
+        "id": "29",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentFour",
+        "date": "6/7/2021, Tuesday",
+        "status": "Confirmed"
+    },
+    {
+        "id": "30",
+        "clinic": "GP Clinic 3",
+        "name": "PaitentZero",
+        "date": "8/7/2021, Thursday",
+        "status": "Pending Confirmation"
+    }
+],
+"clinic-open": [
+  {
+    "id": 1,
+    "clinic": "GP Clinic 1",
+    "avail": "5/7/2021, Monday",
+    "remaining": 3
+  },
+  {
+    "id": 2,
+    "clinic": "GP Clinic 1",
+    "avail": "6/7/2021, Tuesday",
+    "remaining": 3
+  },
+  {
+    "id": 3,
+    "clinic": "GP Clinic 1",
+    "avail": "7/7/2021, Wednesday",
+    "remaining": 3
+  },
+  {
+    "id": 4,
+    "clinic": "GP Clinic 1",
+    "avail": "8/7/2021, Thursday",
+    "remaining": 3
+  },
+  {
+    "id": 5,
+    "clinic": "GP Clinic 1",
+    "avail": "9/7/2021, Friday",
+    "remaining": 3
+  },
+  {
+    "id": 6,
+    "clinic": "GP Clinic 1",
+    "avail": "10/7/2021, Saturday",
+    "remaining": 3
+  },
+  {
+    "id": 7,
+    "clinic": "GP Clinic 1",
+    "avail": "11/7/2021, Sunday",
+    "remaining": 3
+  }
+]
+}

@@ -1,0 +1,12 @@
+﻿<div class="p-4">
+    <div class="container">
+        <h1>Welcome {{user.firstName}}!</h1>
+
+        <p *ngIf="getId(user) === 'Paitent'"> You're logged in as Paitent.</p>
+        <p *ngIf="getId(user) === 'Admin'"> You're logged in as Admin.</p>
+
+        <p *ngIf="getId(user) === 'Admin'"><a routerLink="/users">Manage Users</a></p>
+
+        <p><a routerLink="/appointment">Manage Appointments</a></p>
+    </div>
+</div>

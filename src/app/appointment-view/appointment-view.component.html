@@ -1,0 +1,70 @@
+<div class="p-4">
+    <div class="container">
+        <h1> Appointment Schedule List</h1>
+
+        <a routerLink="create" class="btn btn-sm btn-success mb-2">Create an Appointment </a>
+
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Type to search" [(ngModel)]="data" placeholder="Search...">
+        </div>
+    
+        <table *ngIf="getId(user) === 'Admin'" id="myTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th style="width: 20%">Clinic </th>
+                    <th style="width: 20%">Paitent Name</th>
+                    <th style="width: 20%">Appointment Date</th>
+                    <th style="width: 20%"> Status </th>
+                    <th style="width: 10%"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let appointment of appointments | filter: data">
+                    <td>{{appointment.clinic}}</td>
+                    <td>{{appointment.name}}</td>
+                    <td>{{appointment.date}}</td>
+                    <td>{{appointment.status}} </td>
+                    <td style="white-space: nowrap">
+                        <a *ngIf="appointment.status !== 'Confirmed'" routerLink="confirm/{{appointment.id}}" class="btn btn-sm btn-primary mr-1">Confirm Appointment</a>
+                        <button (click)="deleteAppointment(appointment.id)" class="btn btn-sm btn-danger btn-delete-user">
+                                Cancel Appointment
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 *ngIf="!appointments?.length && getId(user) === 'Admin'"> No Paitent Appointments</h2>
+
+
+        <table *ngIf="getId(user) === 'Paitent'" id="myTable2" class="table table-striped">
+            <thead>
+                <tr>
+                    <th style="width: 20%">Clinic </th>
+                    <th style="width: 20%">Paitent Name</th>
+                    <th style="width: 20%">Appointment Date</th>
+                    <th style="width: 20%"> Status </th>
+                    <th style="width: 10%"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let appointment of ownappointments | filter: data">
+                    <td>{{appointment.clinic}}</td>
+                    <td>{{appointment.name}}</td>
+                    <td>{{appointment.date}}</td>
+                    <td>{{appointment.status}} </td>
+                    <td style="white-space: nowrap">
+                        <button (click)="deleteownAppointment(appointment.id)" class="btn btn-sm btn-danger btn-delete-user">
+                                Cancel Appointment
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 *ngIf="!appointments?.length && getId(user) === 'Paitent'"> You do not have an Appointment. </h2>
+    </div>
+</div>
+
+
+    
