@@ -48,7 +48,45 @@ The application created is a Health Appointment Management System. It uses both 
 
 ![Demo](https://github.com/Mr-YaRou/angular-assignment-2/blob/main/src/assets/search-demo.gif)
 
-#
+## Testing Overview
+
+These are the test-related scripts:
+
+```bash
+npm run tests
+```
+
+The end-to-end test framework used is [Protractor](https://www.protractortest.org/#/). Protractor runs tests against the application in a real browser, interacting with it as a user would. Protractor is built on top of WebDriver JS (Selenuim).
+
+### Test Script Samples
+
+Form Validation test case on Login page. 
+
+```ts
+  it('should display error message if provided incorrect credentails',function()
+  {
+    browser.get('http://localhost:4200/');
+    element(by.xpath('.//input[@formcontrolName="username"]')).sendKeys('incorrect');
+    element(by.xpath('.//input[@formcontrolName="password"]')).sendKeys('incorrect');
+    element(by.xpath(".//button[contains(text(),'Login')]")).click()
+    browser.sleep(1000);
+    expect(element(by.xpath(".//span[text()='Username or password is incorrect']")).getText()).toEqual('Username or password is incorrect');
+  });
+```
+
+Page Redirection test case
+
+```ts
+    it('should redirect to Users page and have correct titles ',function()
+    {
+      element(by.xpath("//a[@routerlink='/users'][text()='Users']")).click();
+
+      expect(element(by.xpath(".//h1[contains(text(),'Manage Users')]")).getText()).toEqual('Manage Users');
+      
+    });
+```
+
+![Demo](https://github.com/Mr-YaRou/angular-assignment-2/blob/main/src/assets/test-demo.gif)
 
 ## Development server
 
