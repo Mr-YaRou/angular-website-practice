@@ -61,6 +61,35 @@ The end-to-end test framework used is [Protractor](https://www.protractortest.or
 
 Test case flow were designed to be self-cleaning. Below is the list of test cases created:
 
+| S/No | Type      Type | Test Case                                                                       |
+|------|----------------|---------------------------------------------------------------------------------|
+| 1    | Negative       | should display   error message if provided incorrect credentails                |
+| 2    | Negative       | should display   error message if missing credentails provided                  |
+| 3    | Normal         | should   redirect to regsiter page when registering new account                 |
+| 4    | Negative       | should display   error message if missing registration details                  |
+| 5    | Normal         | should display   success message on successful registration                     |
+| 6    | Normal         | should   redirect to home page if successful admin login                        |
+| 7    | Normal         | should   redirect to login page if successful log out                           |
+| 8    | Normal         | should display   success message on successful registration as paitent          |
+| 9    | Normal         | should display   success message on successful login as paitent                 |
+| 10   | Normal         | should   redirect to appointments page and have correct titles                  |
+| 11   | Normal         | should   redirect to Appointment Creation page and have correct tittle          |
+| 12   | Normal         | should   redirect to appointments page after new appointment creation           |
+| 13   | Normal         | should   redirect to appointments page after new appointment creation - loop    |
+| 14   | Normal         | should remove   one appointment created by the Paitent                          |
+| 16   | Normal         | should   redirect to home page if successful login as admin                     |
+| 18   | Normal         | should   redirect to confirmation page and have correct titles                  |
+| 19   | Normal         | should confrim   appointment and redirect to appointment page                   |
+| 20   | Normal         | should cancel   confirmed appointment and redirect to appointment page          |
+| 21   | Normal         | should   redirect to Users page and have correct titles                         |
+| 22   | Normal         | should   redirect to Add user page and have correct titles                      |
+| 23   | Negative       | should error when add users   form is incomplete                                |
+| 24   | Negative       | should display error when   password entered does not meet requirements         |
+| 25   | Normal         | should successfully register   and create user                                  |
+| 26   | Normal         | should select a user and   redirect to edit user page with correct titles       |
+| 27   | Normal         | should update details of a user   and redirect to user page with correct titles |
+| 28   | Normal         | should delete selected users   and display correct titles                       |
+
 
 ### Test Script Samples
 
