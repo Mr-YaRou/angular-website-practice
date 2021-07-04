@@ -8,6 +8,33 @@ This code base was created to demonstrate an application built with Angular that
 
 ### Clone the repo
 
+```shell
+git clone https://github.com/Mr-YaRou/angular-assignment-2.git
+cd angular-assignment-2
+```
+
+### Install the npm dependancies and start application
+
+Install the `npm` packages described in the `package.json` and verify that it works:
+
+```bash
+npm install
+npm run start:proxy
+```
+
+[JSON Server](https://github.com/typicode/json-server) was used as a full fake REST API. Start the `JSON Server` with the following command:
+
+```bash
+json-server -w .\\database-sample.json
+```
+
+Go to `http://localhost:3000/` to verify `JSON Server` works.
+
+The `npm run start:proxy` command builds (compiles Typescript and copies assets) and watches for changes to the source files and runs the application on  `http://localhost:4200/`. A basic server-side proxy was created for Angular to connect to Json-server.
+
+
+Shut it down application manually with `Ctrl-C`.
+
 ## Development server
 
 Run `npm run start:proxy` for a dev server with proxy to json-server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
