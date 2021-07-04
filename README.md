@@ -35,6 +35,21 @@ The `npm run start:proxy` command builds (compiles Typescript and copies assets)
 
 Shut it down application manually with `Ctrl-C`.
 
+## Functionality Overview
+
+The application created is a Health Appointment Management System. It uses both angular in-memory-web-api and json-server to simulate CRUD operations overy a RESTy API.
+
+**General Functionality:**
+
+- Authenticate users via JWT (Login/Register pages + Logout Button)
+- CRUD Usrs (Able to create, read, update and delete users registered as Admin)
+- CRUD Appointments (Able to create, read, update Appointments scheduled)
+- GET and display paginated list of Appointments
+
+![Demo](https://github.com/Mr-YaRou/angular-assignment-2/blob/main/src/assets/search-demo.gif)
+
+#
+
 ## Development server
 
 Run `npm run start:proxy` for a dev server with proxy to json-server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
