@@ -15,13 +15,6 @@
       "status": "Pending Confirmation"
     },
     {
-      "id": "3",
-      "clinic": "GP Clinic 1",
-      "name": "PaitentThree",
-      "date": "8/7/2021, Thursday",
-      "status": "Pending Confirmation"
-    },
-    {
       "id": "4",
       "clinic": "GP Clinic 1",
       "name": "PaitentFour",
@@ -41,13 +34,6 @@
       "name": "PaitentOne",
       "date": "6/7/2021, Tuesday",
       "status": "Confirmed"
-    },
-    {
-      "id": "7",
-      "clinic": "GP Clinic 1",
-      "name": "PaitentThree",
-      "date": "5/7/2021, Monday",
-      "status": "Pending Confirmation"
     },
     {
       "id": "8",
@@ -83,13 +69,6 @@
       "name": "PaitentOne",
       "date": "10/7/2021, Saturday",
       "status": "Confirmed"
-    },
-    {
-      "id": "13",
-      "clinic": "GP Clinic 2",
-      "name": "PaitentThree",
-      "date": "7/7/2021, Wednesday",
-      "status": "Pending Confirmation"
     },
     {
       "id": "14",
@@ -202,6 +181,13 @@
       "name": "PaitentZero",
       "date": "8/7/2021, Thursday",
       "status": "Pending Confirmation"
+    },
+    {
+      "clinic": "GP Clinic 1",
+      "name": "PaitentThree",
+      "date": "6/7/2021, Tuesday",
+      "status": "Pending Confirmation",
+      "id": "N9b_LM9"
     }
   ],
   "clinic-open": [

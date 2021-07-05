@@ -309,7 +309,7 @@ describe('Angular Assignment Test Suite - Self Cleaning =', function () {
       // delete Paitents created - revert app to original state
 
       element.all(by.xpath(".//span[text()='Delete']")).last().click();
-      element.all(by.xpath(".//span[text()='Delete']")).last().click();
+      element.all(by.xpath(".//span[text()='Delete']")).first().click();
 
       browser.sleep(1000);
       

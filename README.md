@@ -61,7 +61,7 @@ The end-to-end test framework used is [Protractor](https://www.protractortest.or
 
 Test case flow were designed to be self-cleaning. Below is the list of test cases created:
 
-| S/No | Type      Type | Test Case                                                                       |
+| S/No | Type Type      | Test Case                                                                       |
 |------|----------------|---------------------------------------------------------------------------------|
 | 1    | Negative       | should display   error message if provided incorrect credentails                |
 | 2    | Negative       | should display   error message if missing credentails provided                  |

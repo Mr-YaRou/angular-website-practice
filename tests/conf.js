@@ -5,7 +5,7 @@ exports.config = {
     framework: 'jasmine',
     directConnect: true,
     sharedTestFiles: true,
-    specs: ['spec.js'],
+    specs: ['paitents-spec.js', 'admin-spec.js'],
 
     onPrepare: function () {
       
